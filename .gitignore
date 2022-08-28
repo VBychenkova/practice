@@ -13,21 +13,12 @@ target/
 .springBeans
 .sts4-cache
 
-#application-local.properties#
-/application-local.properties
-
 ### IntelliJ IDEA ###
-.idea
-/.idea/
 *.iws
 *.iml
 *.ipr
-#All jar, without module2.jar#
-*.jar
-!/module2.jar
 
-### All in catalog build ###
-/build
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -38,4 +29,21 @@ target/
 
 ### VS Code ###
 .vscode/
+
+
+
+#All build
+/build
+
+#All jar, without module2.jar
+*.jar
+!/module2.jar
+
+#application-local.properties
+/application-local.properties
+
+#folder .idea
+/.idea
+
+#folder .idea_copy, without workspace.xml —
 !workspace.xml/.idea_copy/
