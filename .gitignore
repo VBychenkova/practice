@@ -32,9 +32,9 @@ target/
 
 
 
-#All build
-/build
-
+#All build without .build
+*/build/
+!/.build
 #All jar, without module2.jar
 *.jar
 !/module2.jar
