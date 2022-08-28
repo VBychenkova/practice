@@ -33,7 +33,7 @@ target/
 
 
 #All build without .build
-*/build/
+build/
 !/.build
 #All jar, without module2.jar
 *.jar
