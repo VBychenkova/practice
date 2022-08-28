@@ -13,21 +13,29 @@ target/
 .springBeans
 .sts4-cache
 
+#application-local.properties#
+/application-local.properties
+
 ### IntelliJ IDEA ###
 .idea
+/.idea/
 *.iws
 *.iml
 *.ipr
+#All jar, without module2.jar#
+*.jar
+!/module2.jar
 
-### NetBeans ###
+### All in catalog build ###
+/build
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+!workspace.xml/.idea_copy/
